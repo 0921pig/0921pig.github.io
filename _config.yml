@@ -1,6 +1,6 @@
-title:             개발자 김지식
+title:             Developer 김지식
 email:             0921pig@gmail.com
-description:       A Blog Theme by Start Bootstrap
+description:       안드로이드 및 서버 개발자
 author:            김지식
 baseurl:           ""
 url:               "http://0921pig.github.io"
@@ -12,7 +12,7 @@ github_username:   0921pig
 
 # Build settings
 markdown:          kramdown
-paginate:          5
+paginate:          10
 paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
