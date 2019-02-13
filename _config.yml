@@ -1,10 +1,19 @@
-title: Developer Dan
-email: 0921pig@gmail.com
-description: 안녕하세요. 안드로이드 및 서버 개발자 김지식 입니다.
-baseurl:
-url: ''
-github_username: 0921pig
-markdown: kramdown
-theme: jekyll-theme-clean-blog
+title:             개발자 김지식
+email:             0921pig@gmail.com
+description:       A Blog Theme by Start Bootstrap
+author:            김지식
+baseurl:           ""
+url:               "http://0921pig.github.io"
+
+# Social Profiles
+#twitter_username:  SBootstrap
+github_username:   0921pig
+#facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
